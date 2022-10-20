@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<br>
+    {% for temps in temps %}
+    {{ temps['Date'] }} | {{ temps['Time'] }} | {{ temps['Sensor'] }} <br>
+    {{ temps['Temperature'] }} F | {{ temps['Humiditiy'] }} %    
+    <hr>
+{% endfor %}
+{% endblock %}

@@ -68,3 +68,4 @@ Living Room:  37.50  %
     - High/low humidity
     - Heat index/real feel temp
 - Setup api to query the database
+- Create docker container

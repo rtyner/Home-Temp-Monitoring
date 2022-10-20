@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<b>BL</b>
+    {% for Sensor in temps %}
+    {{ temps['Sensor'] }}
+    {{ temps['Temperature']}}
+    <br>
+    <hr>
+{% endfor %}
+{% endblock %}

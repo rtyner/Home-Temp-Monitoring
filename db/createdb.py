@@ -2,21 +2,21 @@
 from sqlite3 import Error
 import sqlite3
 
-
 # Connecting to sqlite
 # connection object
-connection_obj = sqlite3.connect('/home/bl/dev/temp_to_db/temp.db')
+connection_obj = sqlite3.connect('/home/bl/dev/Home-Temp-Monitoring/data/database.db')
  
 # cursor object
 cursor_obj = connection_obj.cursor()
  
 # Drop the TEMP table if already exists.
-cursor_obj.execute("DROP TABLE IF EXISTS TEMP")
+cursor_obj.execute("DROP TABLE IF EXISTS temp")
  
 # Creating table
-table = """ CREATE TABLE TEMP (
-            Date CHAR(25) NOT NULL,
-            Time CHAR(25) NOT NULL,
+table = """ CREATE TABLE temp (
+            Date CHAR(25),
+            Time CHAR(25),
+            Sensor CHAR(25),
             Temperature INT,
             Humiditiy INT
         ); """
