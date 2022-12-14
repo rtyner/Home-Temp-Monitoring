@@ -38,7 +38,7 @@ DHT22 back:
 | Bedroom | 10.2.2.100| https://temp-bedroom.blurer.net|
 | LivingRoom | 10.2.2.102| https://temp-livingroom.blurer.net|
 | Kitchen | 10.2.2.101| https://temp-kitchen.blurer.net|
-| Server | 10.2.2.10| https://temp-server.blurer.net|
+| VM | 10.2.2.10| https://tempmon.blurer.net|
 
 # Python - createdb.py
 - Execute this python script to create the sqlite3 db. To be used later. 
