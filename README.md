@@ -34,11 +34,11 @@ DHT22 back:
 
 | Sensor | IP | DNS |
 |---|---|---|
-| Outside | 192.168.5.250/22| https://temp-outside.blurer.net|
-| Bedroom | 192.168.5.251/22| https://temp-bedroom.blurer.net|
-| LivingRoom | 192.168.5.252/22| https://temp-livingroom.blurer.net|
-| Kitchen | 192.168.5.253/22| https://temp-kitchen.blurer.net|
-| Server | 192.168.5.254/22| https://temp-server.blurer.net|
+| Outside | 10.2.2.103| https://temp-outside.blurer.net|
+| Bedroom | 10.2.2.100| https://temp-bedroom.blurer.net|
+| LivingRoom | 10.2.2.102| https://temp-livingroom.blurer.net|
+| Kitchen | 10.2.2.101| https://temp-kitchen.blurer.net|
+| Server | 10.2.2.10| https://temp-server.blurer.net|
 
 # Python - createdb.py
 - Execute this python script to create the sqlite3 db. To be used later. 
