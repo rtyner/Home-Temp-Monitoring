@@ -40,6 +40,19 @@ DHT22 back:
 | Kitchen | 10.2.2.101| https://temp-kitchen.blurer.net|
 | VM | 10.2.2.10| https://tempmon.blurer.net|
 
+# VM Setup
+I am using Debian 11 to run this. On Proxmox set the following:
+
+```
+host: vm102
+hostname: tempmon.blurer.net
+dns: 10.1.1.10, 10.1.1.11
+vcpu: 1v
+mem: 0.5g
+hdd: 32g
+ip: 10.2.2.10
+```
+
 # Python - createdb.py
 - Execute this python script to create the sqlite3 db. To be used later. 
 
