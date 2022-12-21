@@ -7,10 +7,10 @@ date_string = now.strftime("%m-%d-%Y")
 time_string = now.strftime("%H:%M:%S")
 
 sensors_ip = {
-    "192.168.5.250":"outside",
-    "192.168.5.251":"bedroom",
-    "192.168.5.252":"living_room",
-    "192.168.5.253":"kitchen"
+    "192.168.4.250":"outside",
+    "192.168.4.251":"bedroom",
+    "192.168.4.252":"living_room",
+    "192.168.4.253":"kitchen"
 }
 
 print(date_string)

@@ -4,7 +4,11 @@ import sqlite3
 
 # Connecting to sqlite
 # connection object
+<<<<<<< HEAD:db/createdb.py
 connection_obj = sqlite3.connect('../data/database.db')
+=======
+connection_obj = sqlite3.connect('database.db')
+>>>>>>> c5e9a625483a89ae0e70a774f97cfd1823a8e991:data/createdb.py
  
 # cursor object
 cursor_obj = connection_obj.cursor()
