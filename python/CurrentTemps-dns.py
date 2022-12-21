@@ -7,10 +7,9 @@ date_string = now.strftime("%m-%d-%Y")
 time_string = now.strftime("%H:%M:%S")
 
 sensors_dns = {
-    "https://temp-outside.blurer.net":"outside",
-    "https://temp-bedroom.blurer.net":"bedroom",
-    "https://temp-livingroom.blurer.net":"living_room",
-    "https://temp-kitchen.blurer.net":"kitchen"
+    "https://temp-outside.rtynerlabs.io":"outside",
+    "https://temp-server.rtynerlabs.io":"server",
+    "https://temp-inside.rtynerlabs.io":"inside",
 }
 
 print(date_string)
