@@ -1,9 +1,0 @@
-DROP TABLE IF EXISTS prices;
-
-CREATE TABLE temp (
-    Date NOT NULL DEFAULT CURRENT_TIMESTAMP,
-    Time INT
-    currency TEXT NOT NULL,
-    price INTEGER NOT NULL,
-    ath INTEGER NOT NULL
-);

@@ -9,7 +9,7 @@ esp8266, dht22, python3 script to pull date, add to db, and dashboard to view
 - USB brick -> to power sensor
 
 ## Software 
-- Arduino IDE: Arch Linux ``sudo pacman -S arduino``
+- Arduino IDE: Arch Linux ``sudo pacman -S arduino`` 
 - Download: Download and copy to $HOME/Arduino/library/ESPAsyncWebServer/
 - ESPAsyncTCP: Download and copy to $HOME/Arduino/library/
 - Adafruit_Sensor: Arduino IDE: ``Sketch -> Download Libraries``
@@ -32,13 +32,13 @@ DHT22 back:
 - For DNS, using nginxproxymanager to forward the domain name to the internal IP.
 - Using UptimeKuma to monitor the IP to see if any go down. 
 
-| Sensor | IP | DNS |
-|---|---|---|
-| Outside | 10.2.2.103| https://temp-outside.blurer.net|
-| Bedroom | 10.2.2.100| https://temp-bedroom.blurer.net|
-| LivingRoom | 10.2.2.102| https://temp-livingroom.blurer.net|
-| Kitchen | 10.2.2.101| https://temp-kitchen.blurer.net|
-| VM | 10.2.2.10| https://tempmon.blurer.net|
+| Sensor |  DNS |
+|---|---|
+| Outside |  https://temp-outside.blurer.net|
+| Bedroom |  https://temp-bedroom.blurer.net|
+| LivingRoom |  https://temp-livingroom.blurer.net|
+| Kitchen |  https://temp-kitchen.blurer.net|
+| VM |  https://tempmon.blurer.net|
 
 # VM Setup
 I am using Debian 11 to run this. On Proxmox set the following:

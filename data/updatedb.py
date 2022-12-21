@@ -11,13 +11,13 @@ time_string = now.strftime("%H:%M:%S")
 
 # sensor ip -> name
 sensors_ip = {
-    "192.168.5.250":"outside",
-    "192.168.5.251":"bedroom",
-    "192.168.5.252":"living_room",
-    "192.168.5.253":"kitchen"
+    "192.168.4.250":"outside",
+    "192.168.4.251":"bedroom",
+    "192.168.4.252":"living_room",
+    "192.168.4.253":"kitchen"
 }
 
-connection = sqlite3.connect('/home/bl/dev/Home-Temp-Monitoring/data/database.db')
+connection = sqlite3.connect('database.db')
 cur = connection.cursor()
 
 for x in sensors_ip:
