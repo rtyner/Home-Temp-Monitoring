@@ -4,7 +4,7 @@ import sqlite3
 
 # Connecting to sqlite
 # connection object
-connection_obj = sqlite3.connect('/home/bl/dev/Home-Temp-Monitoring/data/database.db')
+connection_obj = sqlite3.connect('../data/database.db')
  
 # cursor object
 cursor_obj = connection_obj.cursor()
